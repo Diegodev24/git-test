@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title> Barra de navegación </title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+       <!-- Definir barra de navegación resaltada --> 
+       <div class="navbar navbar-default  navbar-static-top navbar-dark" style="background-color: #581079">
+        <div class="container">
+                <!-- Contenedor que declara el logo -->
+            <div class="navbar-header">
+                    <!-- Estilos para contenido fijo como logos -->
+                <a href="https://images2.alphacoders.com/108/1080128.jpg" class="navbar-brand">Home</a>
+                        <!-- Definir botón desplegable oculto -->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#togglemenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+ 
+ 
+                 <!--  Hacer menú oculto -->
+            <div class="collapse navbar-collapse" id="togglemenu">
+                 <!-- Elemento de menú -->
+                <ul class="nav navbar-nav">
+                    <!-- "cative": define la página actual -->
+                    <li class = "active"> <a href="http://www.idat.edu.pe"> Activo </a> </li>
+                    <li> <a href="http://www.google.com"> Enlace 01 </a> </li>
+                    <li> <a href="http://www.youtube.com"> Enlace 02 </a> </li>
+                    <li> <a href="http://www.hotmail.com"> Enlace 03 </a> </li>
+                </ul>
+ 
+                     <!-- <button class = "btn btn-default navbar-btn"> botón </ button> -->
+                     <!-- Definir cuadro de búsqueda y botón -->
+                     <!-- <button class = "btn btn-default navbar-btn navbar-right"> Buscar </ button> -->
+                     <!-- Definir forma -->
+                <form class="navbar-form navbar-right">
+                         <!-- Declarar formulario grupo -->
+                    <div class="form-group">
+                         <!-- Declarar grupo de cuadro de entrada -->
+                        <div class="input-group">
+                             <!-- Declarar cuadro de entrada de texto -->
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                                     <!-- Botón de lupa -->
+                                <button class="btn btn-default">
+                                     <!-- Reemplazar texto con iconos -->
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
